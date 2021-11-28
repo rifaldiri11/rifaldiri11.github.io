@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Rifaldi Muhamad</title>
+  </head>
+
+  <body>
+    <nav class="navbar py-3 navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Muhamad Rifaldi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active align-self-center">
+              <a class="nav-link" href="#home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#other">Other</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-4 col-sm-6 align-self-center">
+            <h3 class="mb-" id="home">Hello I'm</h3>
+            <h1 class="mb-4">Muhamad Rifaldi</h1>
+            <p class="mb-4">
+              Saya seorang mahasiswa program studi sistem informasi '18<br />
+              Fakultas ilmu komputer di Universitas Bina Darma Palembang
+              <br />
+              I love programming frontend backend fullstack web / mobile app,
+              design UIX(user interface / user experience).
+              <br />
+              currently '21 I'm studying Laravel(web e-commerce) Flutter(mobile
+              technology) SpringBoot(web service) and Docker(virtual network)
+            </p>
+            <a class="btn btn-primary mb-0" href="#" role="button">Like</a>
+          </div>
+          <!-- d-sm-block mengilangkan gambar ketika ukuran layar ke versi mobile -->
+          <div class="col-md-6 col-lg-4 mt-3">
+            <div class="gambar">
+              <img
+                class="gambar-img"
+                src="images/r.png"
+                alt="Rifaldi Muhamad"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center">
+            <h4 text="align-center">About</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="til">
+      <div class="container">
+        <div class="row text-center py-3">
+          <div class="col">
+            <h4>Pictures 3D</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="til-box">
+              <h4 class="til-name">Gray Jaz Black Tshirt</h4>
+              <img src="images/r.png" alt="Rifaldi 1" class="til-img" />
+              <a href="#" class="til-detail-button btn btn-light">Details</a>
+            </div>
+          </div>
+           
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="til-box">
+              <h4 class="til-name">Army Mask Black Jacket</h4>
+              <img src="images/rr.png" alt="Rifaldi 2" class="til-img" />
+              <a href="#" class="til-detail-button btn btn-light">Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="til-box">
+              <h4 class="til-name">Navy Jaz Black Tshirt</h4>
+              <img src="images/rrr.png" alt="Rifaldi 3" class="til-img" />
+              <a href="#" class="til-detail-button btn btn-light">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="other">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col align-self-center">
+            <h4 text="align-center">Other</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row mt-5 mb-1">
+          <div class="footer col align-self-center">
+            <p class="text-center">Created by <a href="https://instagram.com/rifaldiri11?utm_medium=copy_link">muhamad rifaldi</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mengaktifkan tombol burger menggunakan jquery cdn-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- vanila js till -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".til-box"), {
+        max: 35,
+        speed: 1000,
+      });
+    </script>
+  </body>
+</html>
